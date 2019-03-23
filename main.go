@@ -29,9 +29,24 @@ How to figure out which package type is
 import "fmt"
 
 /*
-import statment use to access code inside of another package
+-import statment use to access code inside of another package
+-'fmt' is standard library used to print out many things
+-think it as link other packages by using import statement
+-information available on golang website for standard packages
 */
 
 func main() { //-package main must contain 'main' function
+	// func: declare statment is function
+	// main: name of function
+	// (): list of arguments passing
 	fmt.Println("hi")
 }
+
+/*
+Go file pettarn
+1. package declaration
+2. import packages need
+3. Declare function
+*/
+
+//change the directory to GOPATH
